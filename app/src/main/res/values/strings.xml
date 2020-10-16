@@ -1,0 +1,35 @@
+<resources>
+
+    <string name="app_name">D.I.C.</string>
+
+    <string name="dpi_category">unknown</string>
+
+    <string name="chooser_app">アプリを選んでください</string>
+
+    <string name="activity_name_about">アプリについて</string>
+
+    <string name="device_info_title_device_name">端末名</string>
+    <string name="device_info_title_os_version">搭載OS</string>
+    <string name="device_info_title_density">density</string>
+    <string name="device_info_title_scale_density">scaleDensity</string>
+    <string name="device_info_title_width_pixels">widthPixels</string>
+    <string name="device_info_title_height_pixels">heightPixels</string>
+    <string name="device_info_title_density_dpi">densityDpi</string>
+    <string name="device_info_title_xdpi">xDpi</string>
+    <string name="device_info_title_ydpi">yDpi</string>
+    <string name="device_info_title_category">Category</string>
+    <string name="device_info_title_max_memory">ヒープの最大容量（Dalvik VM）</string>
+    <string name="device_info_title_web_view_user_agent">WebViewのUserAgent</string>
+
+    <string name="about_copyright" translatable="false">\u00a9 2020 ヤマグロ(yamaglo)</string>
+    <string name="about_title">D.I.C.について</string>
+    <string name="about_body_1">インストールしている端末の情報を見たり、アプリ開発に役立ちそうな機能が入ったアプリです。</string>
+    <string name="about_button_yamaglo_web">yamaglo Web Site</string>
+    <string name="about_button_yamaglo_twitter">yamaglo Twitter</string>
+    <string name="about_button_yamaglo_store">yamaglo Google Play</string>
+    <string name="about_button_yamaglo_support">Support yamaglo(japanese)</string>
+
+    <string name="menu_main_transition_app_list">インストールアプリ一覧</string>
+    <string name="menu_main_transition_about">このアプリについて</string>
+    <string name="menu_main_transition_oss">オープンソースライセンス</string>
+</resources>

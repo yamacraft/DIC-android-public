@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_transition_app_list"
+        android:orderInCategory="10"
+        android:title="@string/menu_main_transition_app_list"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_transition_about"
+        android:orderInCategory="11"
+        android:title="@string/menu_main_transition_about"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_transition_oss"
+        android:orderInCategory="12"
+        android:title="@string/menu_main_transition_oss"
+        app:showAsAction="never" />
+</menu>

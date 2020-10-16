@@ -1,0 +1,31 @@
+<resources>
+
+    <style name="Base.Theme.DIC" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="textAppearanceHeadline5">@style/TextAppearance.DIC.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.DIC.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.DIC.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.DIC.Subtitle2</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.DIC.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.DIC.Body2</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.DIC.Caption</item>
+        <item name="textAppearanceButton">@style/TextAppearance.DIC.Button</item>
+    </style>
+
+    <style name="Theme.DIC" parent="Base.Theme.DIC" >
+        <item name="colorPrimary">@color/cud_green</item>
+        <item name="colorPrimaryVariant">@color/cud_green</item>
+        <item name="colorSecondary">@color/cud_orange</item>
+        <item name="colorSecondaryVariant">@color/cud_orange</item>
+        <item name="android:colorBackground">@color/white</item>
+        <item name="colorSurface">@color/white</item>
+
+        <item name="colorPrimaryDark">@color/dark_green</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorOnBackground">@color/black_alpha_87</item>
+        <item name="colorOnSurface">@color/black</item>
+
+    </style>
+
+    <style name="Theme.DIC.DayNight" parent="Theme.DIC" />
+</resources>

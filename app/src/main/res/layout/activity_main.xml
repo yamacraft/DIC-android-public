@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:theme="@style/Theme.DIC">
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/section_padding_width"
+            android:paddingRight="@dimen/section_padding_width">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium"
+                android:text="@string/device_info_title_device_name"
+                android:textAppearance="@style/TextAppearance.DIC.Subtitle1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/device_name_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.DIC.Body1"
+                tools:text="taimen (Google) " />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium"
+                android:text="@string/device_info_title_os_version"
+                android:textAppearance="@style/TextAppearance.DIC.Subtitle1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/os_version_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.DIC.Body1"
+                tools:text="9 (API 28) " />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium"
+                android:text="@string/device_info_title_density"
+                android:textAppearance="@style/TextAppearance.DIC.Subtitle1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/density_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.DIC.Body1"
+                tools:text="3.5 px" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium"
+                android:text="@string/device_info_title_scale_density"
+                android:textAppearance="@style/TextAppearance.DIC.Subtitle1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/scale_density_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.DIC.Body1"
+                tools:text="3.5 px" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium"
+                android:text="@string/device_info_title_width_pixels"
+                android:textAppearance="@style/TextAppearance.DIC.Subtitle1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/width_pixels_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.DIC.Body1"
+                tools:text="1440 px" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium"
+                android:text="@string/device_info_title_height_pixels"
+                android:textAppearance="@style/TextAppearance.DIC.Subtitle1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/height_pixels_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.DIC.Body1"
+                tools:text="2880 px" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium"
+                android:text="@string/device_info_title_density_dpi"
+                android:textAppearance="@style/TextAppearance.DIC.Subtitle1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/density_dpi_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.DIC.Body1"
+                tools:text="560" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium"
+                android:text="@string/device_info_title_xdpi"
+                android:textAppearance="@style/TextAppearance.DIC.Subtitle1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/xdpi_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.DIC.Body1"
+                tools:text="537.882" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium"
+                android:text="@string/device_info_title_ydpi"
+                android:textAppearance="@style/TextAppearance.DIC.Subtitle1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ydpi_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.DIC.Body1"
+                tools:text="537.882" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium"
+                android:text="@string/device_info_title_category"
+                android:textAppearance="@style/TextAppearance.DIC.Subtitle1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/category_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.DIC.Body1"
+                tools:text="xxxhdpi" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium"
+                android:text="@string/device_info_title_max_memory"
+                android:textAppearance="@style/TextAppearance.DIC.Subtitle1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/max_memory_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.DIC.Body1"
+                tools:text="192 MB" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/medium"
+                android:text="@string/device_info_title_web_view_user_agent"
+                android:textAppearance="@style/TextAppearance.DIC.Subtitle1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/web_view_user_agent_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.DIC.Body1"
+                tools:text="Mozilla/5.0 *****************************" />
+
+            <!-- FABによるテキスト隠れ対策 -->
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="@dimen/huge" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="@dimen/scroll_bottom_space" />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/share_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="@dimen/medium"
+        android:contentDescription="@null"
+        app:backgroundTint="?colorSecondary"
+        app:srcCompat="@drawable/ic_baseline_share_24"
+        app:tint="?colorOnSecondary" />
+
+</FrameLayout>

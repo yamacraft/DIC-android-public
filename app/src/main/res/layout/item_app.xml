@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="@dimen/medium"
+    tools:theme="@style/Theme.DIC">
+
+    <ImageView
+        android:id="@+id/app_launcher_image_view"
+        android:layout_width="@dimen/item_app_icon_size"
+        android:layout_height="@dimen/item_app_icon_size"
+        android:contentDescription="@null"
+        android:scaleType="centerInside"
+        tools:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/app_name_text_view"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/medium"
+        android:layout_marginRight="@dimen/medium"
+        android:layout_weight="1"
+        android:textAppearance="@style/TextAppearance.DIC.Body1"
+        tools:text="アプリケーション名" />
+
+    <LinearLayout
+        android:id="@+id/app_sdk_version_container"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/app_target_sdk_version_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.DIC.Body2"
+            tools:text="targetSdkVersion: 26" />
+
+        <TextView
+            android:id="@+id/app_target_sdk_version_code_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.DIC.Body2"
+            tools:text="Android x.x" />
+    </LinearLayout>
+
+</LinearLayout>

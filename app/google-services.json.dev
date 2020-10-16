@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "888582046850",
+    "firebase_url": "https://dic-app-dev.firebaseio.com",
+    "project_id": "dic-app-dev",
+    "storage_bucket": "dic-app-dev.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888582046850:android:4c62ebe1c446181876a09b",
+        "android_client_info": {
+          "package_name": "jp.yamaglo.dic.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888582046850-87m8e8c2v3cd8m47ldnn7h1hn5sri8lk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAA1SNzZWfDo7tULQALRoh7bNEmf4lrOOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "888582046850-87m8e8c2v3cd8m47ldnn7h1hn5sri8lk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

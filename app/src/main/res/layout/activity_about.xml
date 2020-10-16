@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:theme="@style/Theme.DIC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/section_padding_width"
+        android:paddingTop="@dimen/section_padding_height"
+        android:paddingRight="@dimen/section_padding_width"
+        android:paddingBottom="@dimen/section_padding_height">
+
+        <TextView
+            android:id="@+id/app_name_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textAppearance="@style/TextAppearance.DIC.Headline6" />
+
+        <TextView
+            android:id="@+id/app_version_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.DIC.Body1"
+            tools:text="1.0.0 - xxxxxxx" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/medium"
+            android:gravity="center"
+            android:text="@string/about_copyright"
+            android:textAppearance="@style/TextAppearance.DIC.Caption" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/medium"
+            android:text="@string/about_title"
+            android:textAppearance="@style/TextAppearance.DIC.Body1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/medium"
+            android:text="@string/about_body_1"
+            android:textAppearance="@style/TextAppearance.DIC.Body1" />
+
+        <Button
+            android:id="@+id/link_yamaglo_web_button"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/small"
+            android:text="@string/about_button_yamaglo_web" />
+
+        <Button
+            android:id="@+id/link_yamaglo_twitter_button"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/small"
+            android:text="@string/about_button_yamaglo_twitter" />
+
+        <Button
+            android:id="@+id/link_yamaglo_store_button"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/small"
+            android:text="@string/about_button_yamaglo_store" />
+
+        <Button
+            android:id="@+id/link_support_yamaglo_button"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/small"
+            android:text="@string/about_button_yamaglo_support" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="@dimen/scroll_bottom_space" />
+    </LinearLayout>
+
+</ScrollView>
